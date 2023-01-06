@@ -53,10 +53,15 @@ nav li{
     font-size: 45px;
 }
 .banner-title{
-    font-size: 85px;
+    font-size: 55px;
     font-weight: 700;
+    margin-bottom: 30px;
+    color:#FD6E0A;
     
     
+}
+.banner-images{
+    padding-left: 40px;
 }
 /* mian section */
 main{
@@ -127,19 +132,78 @@ main{
     margin-bottom: 50px;
 
 }
-.resume-conten{
+.resume-title{
    display: flex;
 }
-.resume .title{
-    font-size: 25px;
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+.section-title {
+    text-align: center;
     font-weight: 700;
-    color:#474747;
+    font-size: 35px;
+    margin-bottom: 50px;
 }
-.resume .sub-title{
-    color:#757575;
-    font-size: 20px;
+.resume-title {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.sub-title {
+    color: #757575;
     font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
-.resume .description{
-    color:#757575;
+.description {
+    color: #757575;
+}
+.resume-button {
+    margin-top: 50px;
+    text-align: center;
+}
+/* contact section */
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title {
+    text-align: left;
+}
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.contact input[type="text"], input[type="email"], textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contact a {
+    text-decoration: none;
 }
